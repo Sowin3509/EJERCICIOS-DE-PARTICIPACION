@@ -1,4 +1,4 @@
-
+from math import pi, sqrt
 #PUNTO 1
 
 class Vehiculo:
@@ -7,8 +7,6 @@ class Vehiculo:
         self.kilometra = kilometra
 
 #PUNTO 2
-
-from math import sqrt
 
 class Punto:
     def __init__(self, x, y):
@@ -46,8 +44,6 @@ class Rectangulo:
         ancho = abs(self.punto2.x - self.punto1.x)
         alto = abs(self.punto2.y - self.punto1.y)
         return ancho == alto,
-
-from math import pi, sqrt
 
 class Circulo:
     def __init__(self, centro, radio):
